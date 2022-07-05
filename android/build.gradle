@@ -87,4 +87,20 @@ task run(type: Exec) {
     commandLine "$adb", 'shell', 'am', 'start', '-n', 'com.github.caay2000.rrt/com.github.caay2000.rrt.AndroidLauncher'
 }
 
-eclipse.project.name = appName + "-android"
+//project(":android") {
+//    apply plugin: "android"
+//    apply plugin: "kotlin-android"
+//
+//    configurations { natives }
+//
+//    dependencies {
+//        implementation project(":core")
+//        api "com.badlogicgames.gdx:gdx-backend-android:$gdxVersion"
+//        natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi-v7a"
+//        natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-arm64-v8a"
+//        natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-x86"
+//        natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-x86_64"
+//        api "com.badlogicgames.gdx:gdx-ai:$aiVersion"
+//        api "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+//    }
+//}
