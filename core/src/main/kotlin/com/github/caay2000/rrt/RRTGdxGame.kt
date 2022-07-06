@@ -1,14 +1,15 @@
 package com.github.caay2000.rrt
 
-import com.badlogic.gdx.ApplicationAdapter
 import com.badlogic.gdx.graphics.Texture
 import com.badlogic.gdx.graphics.g2d.SpriteBatch
 import com.badlogic.gdx.utils.ScreenUtils
+import ktx.app.KtxApplicationAdapter
 
-class RRTGdxGame : ApplicationAdapter() {
+class RRTGdxGame : KtxApplicationAdapter {
 
     var batch: SpriteBatch? = null
     var img: Texture? = null
+
     override fun create() {
         batch = SpriteBatch()
         img = Texture("badlogic.jpg")

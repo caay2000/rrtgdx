@@ -7,6 +7,7 @@ plugins {
 dependencies {
     api("com.badlogicgames.gdx:gdx:${BuildConfiguration.Version.libGdx}")
     api("com.badlogicgames.gdx:gdx-ai:${BuildConfiguration.Version.libGdxAi}")
+    api("io.github.libktx:ktx-app:${BuildConfiguration.Version.libGdxKt}")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${BuildConfiguration.Version.kotlin}")
     implementation("org.jetbrains.kotlin:kotlin-stdlib:${BuildConfiguration.Version.kotlin}")
 }
