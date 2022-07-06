@@ -1,7 +1,7 @@
 package com.github.caay2000.rrt
 
-import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application
+import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration
 
 object DesktopLauncher {
 
@@ -9,7 +9,7 @@ object DesktopLauncher {
     fun main(arg: Array<String>) {
         val config = Lwjgl3ApplicationConfiguration()
         config.setForegroundFPS(60)
-        config.setTitle("RRTGDX")
+        config.setTitle("rrtgdx")
         Lwjgl3Application(RRTGdxGame(), config)
     }
 }

@@ -1,4 +1,4 @@
-package com.github.caay2000.rrt;
+package com.github.caay2000.rrt
 
 import com.badlogic.gdx.ApplicationAdapter
 import com.badlogic.gdx.graphics.Texture
